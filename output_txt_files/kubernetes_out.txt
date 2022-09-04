@@ -1,0 +1,15 @@
+Error from server (AlreadyExists): pods "udacity-cloud-devops-project4" already exists
+NAME                            READY   STATUS    RESTARTS   AGE
+udacity-cloud-devops-project4   1/1     Running   0          64s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+(.devops) voclabs:~/environment/Udacity_Project-4 (main) $ bash make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
